@@ -8,14 +8,8 @@ import Rules from "./components/Rules";
 import JudgingCriteria from "./components/JudgingCriteria";
 import Footer from "./components/Footer";
 import ProjectIdeas from "./components/ProjectIdeas";
-// import HeroSection from "./components/HeroSection";
-// import AboutHackathon from "./components/AboutHackathon";
-// import Themes from "./components/Themes";
-// import Rules from "./components/Rules";
-// import Footer from "./components/Footer";
-// import JudgingCriteria from "./components/JudgingCriteria";
-// import Tools from "./components/Tools";
-// import ProjectIdeas from "./components/ProjectIdeas"; // Import the new Projects Ideas page
+import './App.css';
+import Winner from "./components/Winner";
 
 function App() {
   return (
@@ -28,9 +22,11 @@ function App() {
             <div>
              <HeroSection />
              <AboutHackathon />
+             <hr class="awesome-break"></hr>
              <Themes />
              <Rules />
              <JudgingCriteria />
+             <Winner />
              <Footer />
             </div>
           }

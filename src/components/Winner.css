@@ -1,0 +1,47 @@
+/* Styling for Prizes and Winner section */
+.prizes-and-winner {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #137371; 
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .prizes-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .prize-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .prize-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .prize-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #137371; 
+    margin-bottom: 10px;
+  }
+  
+  .prize-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -42,7 +42,7 @@ const HeroSection = () => {
   }, [targetDate]);
 
   const handleExploreClick = () => {
-    navigate("/projects-ideas"); // Redirect to Projects Ideas page
+    navigate("/projects-ideas"); 
   };
 
   // Open modal
