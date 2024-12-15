@@ -1,0 +1,19 @@
+.rules {
+    padding: 50px 20px;
+  }
+  
+  .rules h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .rules ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rules li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  

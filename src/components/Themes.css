@@ -1,0 +1,26 @@
+.themes {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  .themes h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .theme-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .theme-card {
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 250px;
+  }
+  
