@@ -1,75 +1,82 @@
-.themes {
-    margin: 40px auto;
-    padding: 20px;
+/* Themes.css */
 
-    background-color: #f9f9f9;
-    border-radius: 8px;
-  }
-  
-  h2 {
+.themes {
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #137371; 
-    padding: 10px;/* Title color */
+    padding: 20px;
   }
   
   .theme-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
   }
   
   .theme-card {
-    background-color: #ffffff;
+    background-color: #137371;
+    color: white;
     padding: 20px;
+    margin: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    width: 100%;
-    max-width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
   }
   
-  /* .theme-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  } */
+  .theme-card:hover {
+    transform: scale(1.05);
+  }
   
   .theme-title {
     font-size: 18px;
     font-weight: bold;
-    color: #137371;
-    margin: 0;
   }
   
-  .theme-details {
-    margin-top: 10px;
-    padding: 15px;
-    background-color: #f1f1f1;
-    border: 1px solid #ddd;
+  /* Popup Style */
+  .theme-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 30px;
     border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .popup-content p {
     font-size: 16px;
-    color: #555;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
   }
   
-  .theme-details p {
-    margin: 0;
+  .close-btn {
+    background-color: #137371;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
   }
   
-  /* Pin-like effect at the top */
-  .theme-card::before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40px;
-    height: 15px;
-    /* background-color: #c4a57d; Pin effect */
-    border-radius: 50%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .close-btn:hover {
+    background-color: #105f4b;
   }
   
