@@ -3,9 +3,9 @@ import './Winner.css'; // Importing the CSS for styling
 
 const Winner = () => {
   const prizeData = [
-    { title: 'Winner', description: 'Prize: 10000 and a Trophy' },
-    { title: 'Runner-up', description: 'Prize: 5000 and a Certificate' },
-    { title: 'Best Innovation Award', description: 'Prize: 2500 and a Special Trophy' },
+    { title: 'Winner', description: 'Prize: XXXX and a Trophy' },
+    { title: 'Runner-up', description: 'Prize: XXXX and a Certificate' },
+    { title: 'Best Innovation Award', description: 'Prize: XXXX and a Special Trophy' },
   ];
 
   return (
