@@ -195,20 +195,20 @@
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Submit Button */
+
 .submit-btn {
-    background: #28a745; /* Success green */
+    background: #137e71; 
     color: #fff;
 }
 
 .submit-btn:hover {
-    background: #218838;
+    background: #137e71;
     transform: scale(1.05);
 }
 
-/* Close Button */
+
 .close-btn {
-    background: #ff0019; /* Danger red */
+    background: #ff0019; 
     color: #fff;
 }
 

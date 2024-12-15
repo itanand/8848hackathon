@@ -30,7 +30,7 @@ const Themes = () => {
           <div className="popup-content">
             <h3>{THEMES[openThemeIndex].title}</h3>
             <p>{THEMES[openThemeIndex].details}</p>
-            <button onClick={() => setOpenThemeIndex(null)} className="close-btn">
+            <button onClick={() => setOpenThemeIndex(null)} className="closes-btn">
               Close
             </button>
           </div>
