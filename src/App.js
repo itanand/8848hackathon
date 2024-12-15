@@ -5,10 +5,17 @@ import HeroSection from "./components/HeroSection";
 import AboutHackathon from "./components/AboutHackathon";
 import Themes from "./components/Themes";
 import Rules from "./components/Rules";
-import Footer from "./components/Footer";
 import JudgingCriteria from "./components/JudgingCriteria";
+import Footer from "./components/Footer";
+import ProjectIdeas from "./components/ProjectIdeas";
+// import HeroSection from "./components/HeroSection";
+// import AboutHackathon from "./components/AboutHackathon";
+// import Themes from "./components/Themes";
+// import Rules from "./components/Rules";
+// import Footer from "./components/Footer";
+// import JudgingCriteria from "./components/JudgingCriteria";
 // import Tools from "./components/Tools";
-import ProjectIdeas from "./components/ProjectIdeas"; // Import the new Projects Ideas page
+// import ProjectIdeas from "./components/ProjectIdeas"; // Import the new Projects Ideas page
 
 function App() {
   return (
@@ -19,12 +26,18 @@ function App() {
           path="/"
           element={
             <div>
-              <HeroSection />
+             <HeroSection />
+             <AboutHackathon />
+             <Themes />
+             <Rules />
+             <JudgingCriteria />
+             <Footer />
+              {/* <HeroSection />
               <AboutHackathon />
               <Themes />
               <Rules />
               <JudgingCriteria />
-              <Footer />
+              <Footer /> */}
             </div>
           }
         />

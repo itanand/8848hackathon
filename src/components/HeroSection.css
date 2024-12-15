@@ -80,6 +80,7 @@
   
   .cta-btn.learn-more {
     background-color: #ff2e63;
+    color: white;
   }
   
   .cta-btn:hover {
@@ -207,12 +208,12 @@
 
 /* Close Button */
 .close-btn {
-    background: #dc3545; /* Danger red */
+    background: #ff0019; /* Danger red */
     color: #fff;
 }
 
 .close-btn:hover {
-    background: #c82333;
+    background: #ff0019;
     transform: scale(1.05);
 }
 
