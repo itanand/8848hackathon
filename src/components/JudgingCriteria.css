@@ -1,0 +1,73 @@
+.judging-criteria {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #137371; /* Title color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .note-wall {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #f4e4d8; /* Light brown color for paper effect */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+  
+  .criteria-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .criteria-table th,
+  .criteria-table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .criteria-table th {
+    background-color: #137371;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .criteria-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .criteria-table td {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Pin effect */
+  .note-wall::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: red; /* Red pin */
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,8 +1,25 @@
-footer {
-    padding: 10px 20px;
-    text-align: center;
-    background: #333;
+.simple-footer {
+    background-color: #137371;  /* Set background color to #137371 */
     color: white;
-    font-size: 0.9rem;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo-img {
+    width: 150px;  /* Adjust the logo size */
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
   }
   

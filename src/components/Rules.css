@@ -1,19 +1,40 @@
-.rules {
-    padding: 50px 20px;
+.rules-section {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  .rules h2 {
-    font-size: 2rem;
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #137371; /* Title color */
+    text-align: center;
     margin-bottom: 20px;
   }
   
-  .rules ul {
-    list-style: none;
+  .rules-list {
+    list-style-type: none;
     padding: 0;
   }
   
-  .rules li {
-    font-size: 1.1rem;
-    margin: 10px 0;
+  .rule-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
   }
   
+  .rule-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #137371; /* Number color */
+    margin-right: 15px;
+  }
+  
+  .rule-text {
+    font-size: 16px;
+    color: #333;
+  }

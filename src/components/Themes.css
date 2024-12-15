@@ -1,26 +1,75 @@
 .themes {
-    padding: 50px 20px;
-    text-align: center;
-    background: #f4f4f4;
+    margin: 40px auto;
+    padding: 20px;
+
+    background-color: #f9f9f9;
+    border-radius: 8px;
   }
   
-  .themes h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #137371; 
+    padding: 10px;/* Title color */
   }
   
   .theme-list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
   }
   
   .theme-card {
+    background-color: #ffffff;
     padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* .theme-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  } */
+  
+  .theme-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #137371;
+    margin: 0;
+  }
+  
+  .theme-details {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-details p {
+    margin: 0;
+  }
+  
+  /* Pin-like effect at the top */
+  .theme-card::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 15px;
+    /* background-color: #c4a57d; Pin effect */
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   

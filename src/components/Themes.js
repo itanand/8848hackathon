@@ -1,22 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import { THEMES } from "./constants"; // Import the constants
 import "./Themes.css";
 
 const Themes = () => {
-  const themes = [
-    "Internal Expense Management System",
-    "AI-Powered ERP Insights",
-    "Customer Support Chatbot",
-    "E-commerce Integration with ERPNext",
-    "Enhanced Frontend Dashboard for ERPNext",
-  ];
+  const [openTheme, setOpenTheme] = useState(null);
+
+  const toggleTheme = (index) => {
+    setOpenTheme(openTheme === index ? null : index); // Toggle theme open/close
+  };
 
   return (
     <section className="themes">
       <h2>Hackathon Themes</h2>
       <div className="theme-list">
-        {themes.map((theme, index) => (
+        {THEMES.map((theme, index) => (
           <div key={index} className="theme-card">
-            <p>{theme}</p>
+            <p className="theme-title" onClick={() => toggleTheme(index)}>
+              {theme.title}
+            </p>
+            {openTheme === index && (
+              <div className="theme-details">
+                <p>{theme.details}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>

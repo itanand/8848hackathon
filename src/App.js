@@ -5,6 +5,7 @@ import AboutHackathon from './components/AboutHackathon';
 import Themes from './components/Themes';
 import Rules from './components/Rules';
 import Footer from './components/Footer';
+import JudgingCriteria from './components/JudgingCriteria';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutHackathon />
       <Themes />
       <Rules />
+      <JudgingCriteria />
       <Footer />
     </div>
   );

@@ -1,12 +1,18 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css'; // Importing CSS for styling
 
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2024 8848 Digital Hackathon | All Rights Reserved</p>
+    <footer className="simple-footer">
+      <div className="footer-content">
+        <div className="footer-logo">
+          {/* <img src="" alt="Company Logo" className="footer-logo-img" /> */}
+        </div>
+        <p>&copy; 8848 Digital 2024</p>
+      </div>
     </footer>
   );
 };
 
-export default Footer;
+
+export default Footer
