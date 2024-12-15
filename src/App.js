@@ -32,12 +32,6 @@ function App() {
              <Rules />
              <JudgingCriteria />
              <Footer />
-              {/* <HeroSection />
-              <AboutHackathon />
-              <Themes />
-              <Rules />
-              <JudgingCriteria />
-              <Footer /> */}
             </div>
           }
         />
