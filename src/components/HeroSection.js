@@ -80,8 +80,8 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="hero-container">
         <h1 className="hero-title">8848 DIGITAL HACKATHON</h1>
-        <p className="hero-subtitle">Build the Future of Innovation</p>
-        <p className="date-range">Join us from January 02 - January 03 *</p>
+        <p className="hero-subtitle">"Build the Future in 24 Hours"</p>
+        <p className="date-range">Join us from Jan 02 - Jan 03, 2025</p>
 
         <div className="timer">
           <div className="timer-box">
