@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./HeroSection.css";
 
 const HeroSection = () => {
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
   const targetDate = new Date("January 03, 2025 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -42,7 +42,7 @@ const HeroSection = () => {
   }, [targetDate]);
 
   const handleExploreClick = () => {
-    // navigate("/projects-ideas");
+    navigate("/projects-ideas"); // Redirect to Projects Ideas page
   };
 
   // Open modal
