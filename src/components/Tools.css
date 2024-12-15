@@ -1,0 +1,46 @@
+.tools-and-technology {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .tools-and-technology h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #137371;
+  }
+  
+  .tool-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .tool-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 250px;
+    text-align: left;
+  }
+  
+  .tool-card h3 {
+    font-size: 1.25rem;
+    color: #137371;
+    margin-bottom: 1rem;
+  }
+  
+  .tool-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tool-card ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
