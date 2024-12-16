@@ -42,3 +42,44 @@ export const THEMES = [
     },
   ];
   
+
+  export const  PROJECTIDEAS = [
+    {
+      name: "Personal Expense Tracker",
+      description:
+        "A simple app to track income and expenses with features like data visualization and export options.",
+      difficulty: "Beginner",
+      repoLink: "https://github.com/example/expense-tracker",
+    },
+    {
+      name: "Real-time Chat Application",
+      description:
+        "A chat app using WebSocket for real-time messaging. Features include authentication and group chats.",
+      difficulty: "Intermediate",
+      repoLink: "https://github.com/example/chat-app",
+    },
+    {
+      name: "Weather Forecast Dashboard",
+      description:
+        "An app to display real-time weather updates using OpenWeatherMap API. Features include location-based search.",
+      difficulty: "Beginner",
+      repoLink: "https://github.com/example/weather-dashboard",
+    },
+    {
+      name: "Markdown Blog Editor",
+      description:
+        "A Markdown-based blogging platform that allows users to write, edit, and publish blogs.",
+      difficulty: "Intermediate",
+      repoLink: "https://github.com/example/markdown-blog",
+    },
+    {
+      name: "Task Management System",
+      description:
+        "A Kanban-style task manager for teams with drag-and-drop functionality and user authentication.",
+      difficulty: "Advanced",
+      repoLink: "https://github.com/example/task-manager",
+    },
+  ];
+  
+
+  
