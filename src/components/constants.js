@@ -45,39 +45,39 @@ export const THEMES = [
 
   export const  PROJECTIDEAS = [
     {
-      name: "Personal Expense Tracker",
+      name: "Open Resume - Resume Builder & Parser",
       description:
-        "A simple app to track income and expenses with features like data visualization and export options.",
-      difficulty: "Beginner",
-      repoLink: "https://github.com/example/expense-tracker",
-    },
-    {
-      name: "Real-time Chat Application",
-      description:
-        "A chat app using WebSocket for real-time messaging. Features include authentication and group chats.",
-      difficulty: "Intermediate",
-      repoLink: "https://github.com/example/chat-app",
-    },
-    {
-      name: "Weather Forecast Dashboard",
-      description:
-        "An app to display real-time weather updates using OpenWeatherMap API. Features include location-based search.",
-      difficulty: "Beginner",
-      repoLink: "https://github.com/example/weather-dashboard",
-    },
-    {
-      name: "Markdown Blog Editor",
-      description:
-        "A Markdown-based blogging platform that allows users to write, edit, and publish blogs.",
-      difficulty: "Intermediate",
-      repoLink: "https://github.com/example/markdown-blog",
-    },
-    {
-      name: "Task Management System",
-      description:
-        "A Kanban-style task manager for teams with drag-and-drop functionality and user authentication.",
+        "OpenResume is a powerful open-source resume builder and resume parser.",
       difficulty: "Advanced",
-      repoLink: "https://github.com/example/task-manager",
+      repoLink: "https://github.com/xitanggg/open-resume",
+    },
+    {
+      name: "Cal.com",
+      description:
+        "Scheduling infrastructure for absolutely everyone.",
+      difficulty: "Advanced",
+      repoLink: "https://github.com/calcom/cal.com",
+    },
+    {
+      name: "Nextcloud server",
+      description:
+        "Nextcloud server, a safe home for all your data",
+      difficulty: "Advanced",
+      repoLink: "https://github.com/nextcloud/server",
+    },
+    {
+      name: "Chatwoot",
+      description:
+        "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. ",
+      difficulty: "Advanced",
+      repoLink: "https://github.com/chatwoot/chatwoot",
+    },
+    {
+      name: "Docmost - Alternative of Notion ",
+      description:
+        "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion",
+      difficulty: "Advanced",
+      repoLink: "https://github.com/docmost/docmost",
     },
   ];
   
