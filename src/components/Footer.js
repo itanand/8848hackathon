@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-logo">
           {/* <img src="" alt="Company Logo" className="footer-logo-img" /> */}
         </div>
-        <p>&copy; 8848 Digital 2024</p>
+        <p>&copy; 8848 Digital Hackathon 2024</p>
       </div>
     </footer>
   );
