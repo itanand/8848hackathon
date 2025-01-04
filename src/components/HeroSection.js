@@ -4,7 +4,7 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   const navigate = useNavigate();
-  const targetDate = new Date("January 03, 2025 00:00:00").getTime();
+  const targetDate = new Date("January 25, 2025 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
