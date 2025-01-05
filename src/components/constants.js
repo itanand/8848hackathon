@@ -3,7 +3,7 @@
 export const THEMES = [
     {
       title: "Internal Expense Management System",
-      details: "Create a system to manage and track internal expenses within an organization, improving budgeting and reporting.",
+      details: "Create a system to manage and track internal expenses within an organizatioon, & improving budgeting and reporting.",
     },
     {
       title: "AI-Powered ERP Insights",
