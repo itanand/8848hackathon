@@ -152,7 +152,7 @@ const HeroSection = () => {
                 />
               </label>
               <label>
-                Theme:
+                Themes:
                 <input
                   type="text"
                   name="theme"
