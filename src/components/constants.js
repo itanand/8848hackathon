@@ -1,4 +1,3 @@
-// constants.js
 
 export const THEMES = [
     {

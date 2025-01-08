@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Define routes for different pages */}
+    
         <Route
           path="/"
           element={

@@ -12,7 +12,7 @@ const AboutHackathon = () => {
       </p>
       <ul>
         <li>📅 Duration: 24 Hours</li>
-        <li>👥 Team Size: 3-6 Members</li>
+        <li>👥 Team Size: 3-5 Members</li>
         <li>💡 Objective: Build impactful solutions</li>
       </ul>
     </section>
